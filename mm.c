@@ -1,10 +1,11 @@
 /*
  * CS 208 Lab 4: Malloc Lab
  *
- * Charlie Roslansky, 2022611
+ * Authors Charlie Roslansky, Hugh Shanno
  *
  * Simple allocator based on implicit free lists, first fit search,
  * and boundary tag coalescing.
+ * We later added an explicit free list in order to improve performance.
  *
  * Each block has header and footer of the form:
  *
